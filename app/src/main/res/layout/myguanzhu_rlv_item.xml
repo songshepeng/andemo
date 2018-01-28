@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:layout_marginLeft="15dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/myguazhu_tx"
+                fresco:roundAsCircle="true"
+                fresco:progressBarImage="@mipmap/lll"
+                />
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/myguazhu_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="天蝎喝牛奶"
+                    android:textSize="20sp"
+
+                    />
+                <TextView
+
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="吃货们快戳我"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/myguazhu_time"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017-05-23  14：35"
+             android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        />
+</LinearLayout>

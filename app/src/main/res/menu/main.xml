@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/gz"
+        android:icon="@mipmap/like"
+        android:title="我的关注"/>
+    <item
+        android:id="@+id/sc"
+        android:icon="@mipmap/sc"
+        android:title="我的收藏"
+        />
+    <item
+        android:id="@+id/ss"
+        android:icon="@mipmap/ss"
+        android:title="搜索好友"/>
+    <item
+        android:id="@+id/tz"
+        android:icon="@mipmap/tz"
+    android:title="消息通知"/>
+
+
+
+
+</menu>
